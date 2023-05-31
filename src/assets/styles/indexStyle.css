@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container{
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
@@ -25,20 +26,24 @@
   text-align: center;
   padding-bottom: 2rem;
 }
+
 .card__qrimage{
   width: 100%;
   border-radius: 15px;
 }
+
 .card__text--title{
   font-weight: 700;
   padding: 1rem;
   color: hsl(218, 44%, 22%);
 }
+
 .card_text--info{
   font-weight: 400;
   margin: 0 22px;
   color: hsl(220, 15%, 55%);
 }
+
 .attribution{
   font-size:15px;
   text-align: center;
