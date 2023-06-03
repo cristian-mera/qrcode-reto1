@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.card{
+.card {
   max-width: 340px;
   display: flex;
   flex-direction: column;
@@ -27,24 +27,24 @@
   padding-bottom: 2rem;
 }
 
-.card__qrimage{
+.card__qrimage {
   width: 100%;
   border-radius: 15px;
 }
 
-.card__text--title{
+.card__text--title {
   font-weight: 700;
   padding: 1rem;
   color: hsl(218, 44%, 22%);
 }
 
-.card_text--info{
+.card_text--info {
   font-weight: 400;
   margin: 0 22px;
   color: hsl(220, 15%, 55%);
 }
 
-.attribution{
+.attribution {
   font-size:15px;
   text-align: center;
   margin-top: 0.5rem;
